@@ -2,21 +2,23 @@
 
 This is my final project for CSCI-5535 (Fundamental Concepts of Programming Languages by Prof. Matthew Hammer)
 
-## Why Sift 
+# Why Sift 
 
 One of the biggest problems of data visualization is you have to prepare the data by yourself. 
 However, this data collection/cleaning can be tedious and repetitive tasks. Moreover, especially end-users, who don't have technical knowledge or skills, may not be able to collect data through API.
 
 So, we propose Sift, a data extraction and visualization tool for end-users. Here is a screenshot.
-
 ![](https://github.com/ryosuzuki/sift/blob/master/resources/demo.gif)
 
-## How to use it
+
+# How to use it
+
+Go to Chrome Web Store and install it. [Sif on Chrome Web Store](https://chrome.google.com/webstore/developer/edit/jbcecgeacaplcfhomelekapejnbjifpc/)
+
+Click the icon to start. That's it.
 
 
-
-
-## How it works 
+# How it works 
 
 We leverage the idea of "Programming by Example" to predict what you want to extract through a bunch of examples. 
 More specifically, the program recognize basically three fetures from the selection, 1) parent node, 2) children node, 3) css style of the current node. When you give more than two examples, the system recognizes common features of these two, and synthesize program based on it. Something like that. 
