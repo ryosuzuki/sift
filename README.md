@@ -1,4 +1,4 @@
-# Sift: Instant Date Extraction and Visualization on the Web
+# Sift: Date Extraction and Visualization Tool on the Web
 
 This is my final project for CSCI-5535 (Fundamental Concepts of Programming Languages by Prof. Matthew Hammer)
 
@@ -9,11 +9,17 @@ However, this data collection/cleaning can be tedious and repetitive tasks. More
 
 So, we propose Sift, a data extraction and visualization tool for end-users. Here is a screenshot.
 
+![](https://github.com/ryosuzuki/sift/blob/master/resources/demo.gif)
+
+## How to use it
+
+
+
 
 ## How it works 
 
 We leverage the idea of "Programming by Example" to predict what you want to extract through a bunch of examples. 
-More specifically, the program recognize basically three fetures from the selection, 1) parent node, 2) children node, 3) css style of the current node. When you give more than two examples, the system recognizes common features of these two, and synthesize program based on it. Something like that.
+More specifically, the program recognize basically three fetures from the selection, 1) parent node, 2) children node, 3) css style of the current node. When you give more than two examples, the system recognizes common features of these two, and synthesize program based on it. Something like that. 
 
 ```js
 var commons = {}
@@ -30,7 +36,7 @@ for (var i=0; i<elements.length-1; i++) {
 }
 ```
 
-The slide that I used in the final presentation is available here. Note that the code is REALLY MESSY since it's a proof of concept prototype, but I hope it can help you understand the concept of programming by example.  
+The code is MIT license, and you can feel free to change it and send a pull request. (But note that the code is REALLY MESSY since it's a proof-of-concept prototype.)
+The slide of the final presentation is also available [here](https://github.com/ryosuzuki/sift/blob/master/resources/slide.pdf). 
 
 Enjoy! - Ryo
-
