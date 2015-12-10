@@ -15,6 +15,8 @@ So, we propose Sift, a data extraction and visualization tool for end-users. Her
 
 Go to Chrome Web Store and install it. -> [[Sift on Chrome Web Store](https://chrome.google.com/webstore/detail/sift-date-extraction-and/jbcecgeacaplcfhomelekapejnbjifpc/)]
 
+![](https://github.com/ryosuzuki/sift/blob/master/resources/chrome.png)
+
 Click the icon to start. That's it.
 
 
