@@ -13,7 +13,7 @@ So, we propose Sift, a data extraction and visualization tool for end-users. Her
 
 # How to use it
 
-Go to Chrome Web Store and install it. [Sif on Chrome Web Store](https://chrome.google.com/webstore/developer/edit/jbcecgeacaplcfhomelekapejnbjifpc/)
+Go to Chrome Web Store and install it. -> [[Sift on Chrome Web Store](https://chrome.google.com/webstore/developer/edit/jbcecgeacaplcfhomelekapejnbjifpc/)]
 
 Click the icon to start. That's it.
 
